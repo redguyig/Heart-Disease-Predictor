@@ -11,17 +11,19 @@ This program uses python for implementation,so please make sure that you ahve th
   - [ ] joblib
   - [ ] matplotlib
   - [ ] Seaborn
+  - [ ] subprocess
+  - [ ] time
         `
 
 for any missing library please run the following command in your terminal 
      `pip install <library_name>`
 
- ** --> To run the program simply run the *run_all.py* file by using the command given below in terminal to execute the code and get to the site**
+ **To run the program simply run the *run_all.py* file by using the command given below in terminal to execute the code and get to the site**
 
        python3 run_all.py 
-### here is a guide on how the predictor works
+### Here is a guide on how the predictor works
 firstly)
- A. Train the ML Models (model_training.py)
+ A. Train the ML Models (*model_training.py*)
    
     Load the dataset (heart.csv)
 
@@ -34,7 +36,7 @@ firstly)
     So that we don’t have to retrain the model every time the app runs
 
 Secondly)
-  B. Create the Streamlit Web App (app.py)
+  B. Create the Streamlit Web App (*app.py*)
      
     📥 Input Collection
     Users input their health data using sliders/dropdowns in the sidebar (e.g., age, sex, chest pain type, etc.)
