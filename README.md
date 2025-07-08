@@ -1,9 +1,10 @@
-### Welcome to Heart Disease Predictor
+# Welcome to Heart Disease Predictor
 
-# here is a guide on how the predictor works
+### here is a guide on how the predictor works
 firstly)
  A. Train the ML Models (model_training.py)
-     Load the dataset (heart.csv)
+   
+    Load the dataset (heart.csv)
 
     Split it into training & testing sets
 
@@ -15,8 +16,9 @@ firstly)
 
 Secondly)
   B. Create the Streamlit Web App (app.py)
-     📥 Input Collection
-          Users input their health data using sliders/dropdowns in the sidebar (e.g., age, sex, chest pain type, etc.)
+     
+    📥 Input Collection
+    Users input their health data using sliders/dropdowns in the sidebar (e.g., age, sex, chest pain type, etc.)
 
     📊 Data Visualization
     Shows a preview of the dataset
@@ -26,7 +28,8 @@ Secondly)
     Shows a scatter plot of age vs. max heart rate, colored by target (disease or not)
 
 
-# How the model looks for the end user 
+### How the model looks for the end user 
+
 🧠 Model Selection
 User chooses a model (logistic, random forest, or KNN) from a dropdown
 
