@@ -3,7 +3,7 @@
 This program uses python for implementation,so please make sure that you ahve the latest version of python installed :)
 
 ## Before running the program, please ensure that you have the following libraries installed
-`
+
   - [ ] Streamlit
   - [ ] pandas
   - [ ] numpy
@@ -13,7 +13,7 @@ This program uses python for implementation,so please make sure that you ahve th
   - [ ] Seaborn
   - [ ] subprocess
   - [ ] time
-        `
+        
 
 for any missing library please run the following command in your terminal 
      `pip install <library_name>`
