@@ -11,7 +11,7 @@ def run_command(command, description):
     time.sleep(1)  # Add 1-second delay after each step
 
 # Step 1: Run model_training.py
-run_command("python model_training.py", "model_training.py")
+run_command("python model_Training.py", "model_Training.py")
 
 # Step 2: Run app.py
 run_command("python app.py", "app.py")
